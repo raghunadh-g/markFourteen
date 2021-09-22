@@ -1,0 +1,134 @@
+/* section to import font styles and colors */
+
+/* section to declare global variables */
+:root {
+  --primary-color: rgb(0, 240, 255, 0.5);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+h2 {
+  margin: 3rem 0rem;
+  text-align: center;
+}
+
+/* styling body */
+.list-non-bullet {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.center-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.section {
+  box-sizing: border-box;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.ow {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+p {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+/* styling area page */
+
+#area-block {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.area-label {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#area-heading {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.area-input {
+  border: 2px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+#area-button {
+  display: block;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  border: 2px solid #00f0ff;
+  background-color: transparent;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+#area-button:hover {
+  background-color: var(--primary-color);
+}
+
+/* styling footer */
+
+footer {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+footer img {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-left: 2.3rem;
+}
+
+.hide {
+  display: none;
+}
