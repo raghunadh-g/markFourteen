@@ -17,10 +17,10 @@ calculate.addEventListener("click", function () {
   if (diff > 0) {
     let profit = diff * number;
     let profitPercentage = (diff / firstPrice) * 100;
-    show.innerText = `Hey, the profit is ${profit} and the percent in increase is ${profitPercentage}%`;
+    show.innerText = `Hey, the profit is ${profit} and the percentage increase is ${profitPercentage}%`;
   } else {
     let loss = (firstPrice - currPrice) * number;
     let lossPercentage = ((-1 * diff) / firstPrice) * 100;
-    show.innerText = `Hey, the loss is ${loss} and the percent in decrese is ${lossPercentage}%`;
+    show.innerText = `Hey, the loss is ${loss} and the percentage decrese is ${lossPercentage}%`;
   }
 });
