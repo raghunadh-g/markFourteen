@@ -6,8 +6,8 @@ var show = document.querySelector("#show");
 
 calculate.addEventListener("click", function () {
   show.classList.remove("hide");
-  let firstPrice = initialPrice.valuetoFixed(2);
-  let currPrice = currentPrice.valuetoFixed(2);
+  let firstPrice = initialPrice.value;
+  let currPrice = currentPrice.value;
   let number = quantity.value;
 
   if (firstPrice === "" || currPrice === "" || number === "")
